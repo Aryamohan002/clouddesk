@@ -44,7 +44,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "http://127.0.0.1:5173"
+        "http://127.0.0.1:5173",
+        "https://clouddeskfronttend-dscqhbagdwb2gvex.eastasia-01.azurewebsites.net"
     ],
     allow_credentials=True,
     allow_methods=["*"],
